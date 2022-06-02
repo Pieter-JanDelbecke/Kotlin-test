@@ -1,5 +1,6 @@
+import kotlin.random.Random
 
-
-fun main(){
-    println("Hello World")
+fun main(args: Array<String>){
+    var str: String? = "Pieter-Jan"
+    println(str?.substring(3,6))
 }
